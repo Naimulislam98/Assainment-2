@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=PT+Serif&family=Poppins:wght@400;500&family=Roboto:wght@100&family=Satisfy&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.banner-container {
+    display: flex;
+    width: 80%;
+    height: 100vh;
+    background-color: #161616;
+    color: white;
+    border-radius: 30px;
+}
+
+.banner-discription {
+    padding-left: 100px;
+    padding-top: 111px;
+    padding-right: 200px;
+}
+
+.text-h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.text-p {
+    font-size: 14px;
+    color: floralwhite;
+}
+
+.link-button {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    width: 120PX;
+    height: 50PX;
+    border-radius: 5PX;
+    margin-top: 40px;
+}
+
+.banner-img {
+    padding-top: 300px;
+    padding-right: 200px;
+}
+
+.main-container {
+    display: flex;
+}
+
+.left-box {
+    background-color: #161616;
+    width: 200px;
+    height: 200px;
+    margin-left: 209px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button-1 {
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.button-2 {
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.button-3 {
+    background-color: #E21717;
+    color: white;
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.right-box {
+    margin-left: 25px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+
+}
+
+.blog-1 {
+    background-color: #CAD5E2;
+    width: 312px;
+    height: 350px;
+}
+
+.img-button {
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.img-pragraph {
+    margin-left: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.icon-2 {
+    margin-left: 100px;
+}
+
+.last-blog {
+    margin-top: 100px;
+    background-color: #161616;
+}
+
+.footer-h1 {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+hr {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer-pragraph {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
